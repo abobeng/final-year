@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "917020258290",
+    "project_id": "purity---microcontroller",
+    "storage_bucket": "purity---microcontroller.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:917020258290:android:1a951d7f40834c5ce2c56b",
+        "android_client_info": {
+          "package_name": "com.example.purity"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "917020258290-pcfb13k4qcnpm0q0c4b8po12rc8364ak.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCe5lR2Qr4_Qz2U3HNQs_pEOEk5hTiOhTs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "917020258290-dih4sqh4k734b0kn8h4e0n7mrvv588go.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "917020258290-d4rj46r0ticm93gbj2dbq21lh4vb898e.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.purity"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

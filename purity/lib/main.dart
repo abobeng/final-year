@@ -50,10 +50,19 @@ class _MyAppState extends State<MyApp> {
         '/home': (context) => HomePage(isNightMode: isNightModeEnabled),
         '/settings': (context) => SettingsPage(
           isNightMode: isNightModeEnabled,
+          toggleNightMode: toggleNightMode,
+          selectedLanguage: 'en', // Provide a default value for selectedLanguage
+          changeLanguage: (language) {}, // Provide a dummy function for changeLanguage
         ),
         '/help': (context) => HelpPage(),
         '/login': (context) => LoginPage(),
       },
     );
+  }
+
+  void toggleNightMode(bool value) {
+    setState(() {
+      isNightModeEnabled = value;
+    });
   }
 }
