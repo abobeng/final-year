@@ -50,7 +50,7 @@ flutter:
   uses-material-design: true
 
   assets:
-    - lib/assets/icons/waterIcon.png 
+    
     - lib/assets/icons/waterpic.jpeg
     - lib/assets/icons/waterlogo1.jpg
 
